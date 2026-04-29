@@ -134,6 +134,13 @@ Jika ingin menjalankan aplikasi dengan performa maksimal (lebih cepat):
    php artisan serve --port=8000
    ```
 
+**Penting untuk Produksi:**
+Pastikan file `.env` Anda memiliki pengaturan berikut untuk keamanan dan performa:
+```env
+APP_ENV=production
+APP_DEBUG=false
+```
+
 ## 🔑 Akses Login
 
 Setelah aplikasi berjalan, buka browser dan akses `http://localhost:8000`. Gunakan akun default berikut untuk masuk:
